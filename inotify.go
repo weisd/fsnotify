@@ -16,7 +16,7 @@ import (
 	"sync"
 	"unsafe"
 
-	"golang.org/x/sys/unix"
+	"github.com/weisd/sys/unix"
 )
 
 // Watcher watches a set of files, delivering events to a channel.

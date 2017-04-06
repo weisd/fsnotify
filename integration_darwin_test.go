@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/sys/unix"
+	"github.com/weisd/sys/unix"
 )
 
 // testExchangedataForWatcher tests the watcher with the exchangedata operation on macOS.
